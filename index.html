@@ -1,101 +1,795 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>May ❤️</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <link rel="stylesheet" href="styles.css">
+    <title>May ♡</title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
 </head>
+
 
 <body>
 
     <main class="contenedor">
 
-        <!-- LOGIN -->
-        <section id="login">
-            <header>
-                <h1>May ❤️</h1>
-                <p>Nuestro pequeño espacio</p>
+
+        <!-- =========================
+             LOGIN
+        ========================== -->
+
+        <section
+            id="login"
+            class="pantalla-login"
+        >
+
+            <div class="login-corazon">
+                ♡
+            </div>
+
+
+            <header class="login-header">
+
+                <h1>
+                    May
+                </h1>
+
+                <p>
+                    nuestro pequeño rincón
+                </p>
+
             </header>
 
-            <div class="tarjeta-saldo">
 
-                <h2>Iniciar sesión</h2>
+            <div class="tarjeta-login">
 
-                <input
-                    type="email"
-                    id="email"
-                    placeholder="Correo electrónico"
+                <h2>
+                    Bienvenidos
+                </h2>
+
+                <p class="texto-login">
+                    Un pequeño espacio para nosotros.
+                </p>
+
+
+                <div class="campo">
+
+                    <label for="email">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Tu correo"
+                    >
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="password">
+                        Contraseña
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Tu contraseña"
+                    >
+
+                </div>
+
+
+                <button
+                    id="btnLogin"
+                    class="boton-principal"
+                    type="button"
                 >
 
-                <input
-                    type="password"
-                    id="password"
-                    placeholder="Contraseña"
-                >
+                    Entrar
 
-                <button id="btnLogin">
-                    INGRESAR
+                    <span>
+                        ♡
+                    </span>
+
                 </button>
 
-                <p id="mensajeLogin"></p>
+
+                <p
+                    id="mensajeLogin"
+                    class="mensaje-login"
+                ></p>
 
             </div>
+
+
+            <p class="frase-login">
+                Espero que te guste, mi niña hermosa.♡
+            </p>
+
         </section>
 
 
-        <!-- APLICACIÓN -->
-        <section id="app" style="display: none;">
 
-            <header>
-                <h1>May ❤️</h1>
+        <!-- =========================
+             APLICACIÓN
+        ========================== -->
+
+        <section
+            id="app"
+            style="display: none;"
+        >
+
+
+            <!-- CABECERA -->
+
+            <header class="encabezado-app">
+
+                <p class="pequeno-titulo">
+                    NUESTRO PEQUEÑO ESPACIO
+                </p>
+
+                <h1>
+                    May ♡
+                </h1>
+
                 <p id="usuarioActual"></p>
+
             </header>
 
-            <section class="tarjeta-saldo">
 
-                <span class="etiqueta">FONDO ACUMULADO</span>
 
-                <h2>S/ 0.00</h2>
+            <!-- =========================
+                 PERFIL
+            ========================== -->
 
-                <p>Por ahora estamos en cero ✨</p>
+            <section
+                id="nosotros"
+                class="seccion-nosotros"
+            >
 
-            </section>
 
-            <section class="accion">
+                <div class="perfil-pareja">
 
-                <button id="btnDiscutimos">
-                    + DISCUTIMOS
-                </button>
 
-                <p>Cada discusión suma S/1 para cada uno.</p>
+                    <div class="perfil-superior">
 
-            </section>
 
-            <section class="historial">
+                        <div class="presentacion">
 
-                <h2>Historial</h2>
+                            <div
+                                class="avatar avatar-ray"
+                            >
+                                R
+                            </div>
 
-                <div class="sin-registros">
-                    <p>Todavía no hay discusiones registradas.</p>
+
+                            <div class="corazon-centro">
+                                ♡
+                            </div>
+
+
+                            <div
+                                class="avatar avatar-yandhira"
+                            >
+                                Y
+                            </div>
+
+                        </div>
+
+
+                        <div class="perfil-info">
+
+                            <h2>
+                                Ray & Yandhira
+                            </h2>
+
+                            <p>
+                                nuestro pequeño rincón ♡
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="perfil-descripcion">
+
+                        <span>
+                            Un lugar para nuestros días buenos, malos y todos los que vendrán, para que nunca se nos olvide todo lo que hemos vivido. ♡
+
+                        </span>
+
+                    </div>
+
+
+
+                    <div class="perfil-datos">
+
+                        <div>
+
+                            <strong>
+                                ♡
+                            </strong>
+
+                            <small>
+                                juntos
+                            </small>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                ∞
+                            </strong>
+
+                            <small>
+                                momentos
+                            </small>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                2
+                            </strong>
+
+                            <small>
+                                nosotros
+                            </small>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
-            </section>
 
-            <button id="btnLogout">
-                CERRAR SESIÓN
+
+                <!-- =========================
+                     RECUERDOS
+                ========================== -->
+
+                <div class="seccion-titulo">
+
+                    <span>
+                        📸
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            Nuestros recuerdos
+                        </h2>
+
+                        <p>
+                            momentos que queremos guardar
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="panelRecuerdos"
+                    class="panel-recuerdos visible"
+                >
+
+                    <div class="recuerdos-grid">
+
+                        <div class="recuerdo-vacio">
+
+                            <div class="recuerdo-vacio-icono">
+                                ♡
+                            </div>
+
+                            <h3>
+                                Próximamente
+                            </h3>
+
+                            <p>
+                                Aquí iremos guardando nuestras
+                                fotos, momentos y recuerdos juntos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     BOTONES
+                ========================== -->
+
+                <div class="apartados">
+
+
+                    <!-- TE EXTRAÑÉ -->
+
+                    <button
+                        id="btnExtrane"
+                        class="apartado apartado-chat"
+                        type="button"
+                    >
+
+                        <span class="apartado-icono">
+                            ❤️
+                        </span>
+
+
+                        <span class="apartado-texto">
+
+                            <strong>
+                                Te extrañé
+                            </strong>
+
+                            <small>
+                                pequeños detalles para el otro
+                            </small>
+
+                        </span>
+
+
+                        <span class="apartado-corazon">
+                            ♡
+                        </span>
+
+                    </button>
+
+
+
+                    <!-- PANEL TE EXTRAÑÉ -->
+
+                    <div
+                        id="panelExtrane"
+                        class="panel-extrane"
+                    >
+
+                        <div class="extrane-simple">
+
+                            <h3>
+                                Te extrañé
+                            </h3>
+
+                            <p class="pregunta-extrane">
+                                ¿Me extrañaste?
+                            </p>
+
+
+                            <button
+                                id="btnRegistrarExtrane"
+                                class="boton-extrane"
+                                type="button"
+                            >
+                                ❤️ Te extrañé
+                            </button>
+
+
+                            <div
+                                id="mensajeExtrane"
+                                class="mensaje-extrane"
+                            ></div>
+
+                        </div>
+
+
+
+                        <!-- HISTORIAL -->
+
+                        <div class="historial-extrane">
+
+                            <div class="historial-extrane-titulo">
+
+                                <span>
+                                    🕊️
+                                </span>
+
+                                <div>
+
+                                    <h4>
+                                        Nuestro historial
+                                    </h4>
+
+                                    <p>
+                                        pequeños detalles que quedan guardados
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div
+                                id="listaHistorialExtrane"
+                                class="lista-historial-extrane"
+                            >
+
+                                <p class="sin-historial-extrane">
+                                    Todavía no hay registros.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- DISCUSIONES -->
+
+                    <button
+                        id="btnRegistro"
+                        class="apartado apartado-chat"
+                        type="button"
+                    >
+
+                        <span class="apartado-icono">
+                            💭
+                        </span>
+
+
+                        <span class="apartado-texto">
+
+                            <strong>
+                                Discusiones
+                            </strong>
+
+                            <small>
+                                nuestro pequeño historial
+                            </small>
+
+                        </span>
+
+
+                        <span class="apartado-corazon">
+                            ♡
+                        </span>
+
+                    </button>
+
+
+
+                    <!-- PANEL DISCUSIONES -->
+
+                    <div
+                        id="panelRegistro"
+                        class="panel-registro"
+                    >
+
+                        <div class="chat-encabezado">
+
+                            <div class="chat-avatar">
+                                💭
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Discusiones
+                                </h3>
+
+                                <p>
+                                    nuestro pequeño registro
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="registro-saldo">
+
+                            <span>
+                                Fondo acumulado
+                            </span>
+
+
+                            <strong
+                                id="saldoRegistro"
+                            >
+                                S/ 0.00
+                            </strong>
+
+
+                            <p
+                                id="detalleSaldo"
+                            >
+                                Ray: S/ 0.00 · Yandhira: S/ 0.00
+                            </p>
+
+                        </div>
+
+
+                        <button
+                            id="btnDiscutimos"
+                            class="boton-discutimos"
+                            type="button"
+                        >
+                            + DISCUTIMOS
+                        </button>
+
+
+                        <div class="historial">
+
+                            <div class="historial-titulo">
+
+                                <span>
+                                    📖
+                                </span>
+
+                                <h3>
+                                    Historial
+                                </h3>
+
+                            </div>
+
+
+                            <div
+                                id="listaHistorial"
+                                class="lista-historial"
+                            >
+
+                                <p class="sin-registros">
+                                    Todavía no hay discusiones registradas.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- CARTITAS -->
+
+                    <button
+                        id="btnCartitas"
+                        class="apartado apartado-chat"
+                        type="button"
+                    >
+
+                        <span class="apartado-icono">
+                            💌
+                        </span>
+
+
+                        <span class="apartado-texto">
+
+                            <strong>
+                                Cartitas
+                            </strong>
+
+                            <small>
+                                cosas que queremos decirnos
+                            </small>
+
+                        </span>
+
+
+                        <span class="apartado-corazon">
+                            ♡
+                        </span>
+
+                    </button>
+
+
+
+                    <!-- PANEL CARTITAS -->
+
+<div
+    id="panelCartitas"
+    class="panel-cartitas"
+>
+    <div class="chat-encabezado">
+        <div class="chat-avatar">
+            💌
+        </div>
+
+        <div>
+            <h3>
+                Cartitas
+            </h3>
+            <p>
+                palabras que queremos guardar
+            </p>
+        </div>
+    </div>
+
+    <!-- ESCRIBIR CARTITA -->
+
+    <div class="cartita-escribir">
+
+        <div class="cartita-escribir-titulo">
+            <span>♡</span>
+            <div>
+                <h4 id="destinatarioCartita">
+                    Escribe algo para el amor de tu vida
+                </h4>
+                <p>
+                    Una pequeña carta para guardar.
+                </p>
+            </div>
+        </div>
+
+        <textarea
+            id="contenidoCartita"
+            class="contenido-cartita"
+            placeholder="Escribe aquí lo que quieras decirme..."
+        ></textarea>
+
+        <div class="cartita-firma">
+            <span>
+                Con cariño,
+            </span>
+
+            <strong id="firmaCartita">
+                ...
+            </strong>
+        </div>
+
+        <button
+            id="btnGuardarCartita"
+            class="boton-cartita"
+            type="button"
+        >
+            💌 Guardar cartita
+        </button>
+
+        <div
+            id="mensajeCartita"
+            class="mensaje-cartita"
+        ></div>
+
+    </div>
+
+    <!-- HISTORIAL -->
+
+    <div class="historial-cartitas">
+
+        <div class="historial-cartitas-titulo">
+            <span>📖</span>
+
+            <div>
+                <h4>
+                    Nuestras cartitas
+                </h4>
+
+                <p>
+                    palabras que decidimos guardar
+                </p>
+            </div>
+        </div>
+
+        <!-- SELECCIONAR FECHA -->
+
+        <div class="selector-fecha-cartitas">
+
+            <label for="fechaCartitas">
+                Buscar por fecha
+            </label>
+
+            <input
+                type="date"
+                id="fechaCartitas"
+            >
+
+        </div>
+
+        <!-- FECHAS CON CARTITAS -->
+
+        <div
+            id="listaFechasCartitas"
+            class="lista-fechas-cartitas"
+        ></div>
+
+        <!-- CARTITAS DE LA FECHA -->
+
+        <div
+            id="listaCartitas"
+            class="lista-cartitas"
+        >
+            <p class="sin-cartitas">
+                Todavía no hay cartitas guardadas.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+
+            <!-- =========================
+                 NAVEGACIÓN
+            ========================== -->
+
+            <nav class="navegacion">
+
+
+                <button
+                    id="navInicio"
+                    class="nav-item"
+                    type="button"
+                >
+
+                    <span>
+                        🏠
+                    </span>
+
+                    <small>
+                        Inicio
+                    </small>
+
+                </button>
+
+
+                <button
+                    id="navNosotros"
+                    class="nav-item activo"
+                    type="button"
+                >
+
+                    <span>
+                        💌
+                    </span>
+
+                    <small>
+                        Nosotros
+                    </small>
+
+                </button>
+
+
+            </nav>
+
+
+
+            <!-- CERRAR SESIÓN -->
+
+            <button
+                id="btnLogout"
+                class="boton-logout"
+                type="button"
+            >
+                Cerrar sesión
             </button>
+
 
         </section>
 
     </main>
 
+
+
+    <!-- SUPABASE -->
+
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
-```
