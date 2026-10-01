@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>May ❤️</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <!-- LOGIN -->
+        <section id="login">
+            <header>
+                <h1>May ❤️</h1>
+                <p>Nuestro pequeño espacio</p>
+            </header>
+
+            <div class="tarjeta-saldo">
+
+                <h2>Iniciar sesión</h2>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Correo electrónico"
+                >
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Contraseña"
+                >
+
+                <button id="btnLogin">
+                    INGRESAR
+                </button>
+
+                <p id="mensajeLogin"></p>
+
+            </div>
+        </section>
+
+
+        <!-- APLICACIÓN -->
+        <section id="app" style="display: none;">
+
+            <header>
+                <h1>May ❤️</h1>
+                <p id="usuarioActual"></p>
+            </header>
+
+            <section class="tarjeta-saldo">
+
+                <span class="etiqueta">FONDO ACUMULADO</span>
+
+                <h2>S/ 0.00</h2>
+
+                <p>Por ahora estamos en cero ✨</p>
+
+            </section>
+
+            <section class="accion">
+
+                <button id="btnDiscutimos">
+                    + DISCUTIMOS
+                </button>
+
+                <p>Cada discusión suma S/1 para cada uno.</p>
+
+            </section>
+
+            <section class="historial">
+
+                <h2>Historial</h2>
+
+                <div class="sin-registros">
+                    <p>Todavía no hay discusiones registradas.</p>
+                </div>
+
+            </section>
+
+            <button id="btnLogout">
+                CERRAR SESIÓN
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+```

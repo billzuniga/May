@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 42px;
+    color: #d63384;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #777;
+    font-size: 16px;
+}
+
+.tarjeta-saldo {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+.etiqueta {
+    font-size: 13px;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.tarjeta-saldo h2 {
+    font-size: 45px;
+    color: #d63384;
+    margin: 15px 0;
+}
+
+.tarjeta-saldo p {
+    color: #777;
+}
+
+.accion {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.accion button {
+    border: none;
+    background-color: #d63384;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.accion button:hover {
+    transform: scale(1.03);
+}
+
+.accion p {
+    margin-top: 12px;
+    color: #777;
+    font-size: 13px;
+}
+
+.historial {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.historial h2 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.sin-registros {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+}
